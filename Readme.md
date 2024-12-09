@@ -120,7 +120,7 @@ setalah pengecekan, kedua file tidak ditemukan adanya missing value dan duplicat
 Berdasarkan data yang ada,jumlah film yang tersedia ada sebanyak __62.325__ film dan jumlah User yang memberikan rating sebanyak __162.541__.
 
 Dari Keseluruhan Film yang ada, beberapa Film memiliki jumlah rata-rata Rating tertinggi.
-<img src='gambar\top10moviesbyrating.png'></img>
+<img src='https://github.com/alifriu/Recommendation-System-Movie-Recommender/blob/master/gambar/top10moviesbyrating.png?raw=true'></img>
 
 Terlihat bahwa 10 film diatas,memiliki rata-rata sebesar 5.0
 
@@ -195,7 +195,7 @@ userId|	movieId|rating|
 ### TF-IDF VEctorizer Data Movies
 Karena komputer hanya dapat memproses data numerik, oleh karena itu data genres perlu kita ubah menjadi numerik dengan menggunakan TFidfVectorizer sebelum di modelling menggunakan Cosine Similarity.
 
-<img src='gambar\tfidf.png'></img>
+<img src='https://github.com/alifriu/Recommendation-System-Movie-Recommender/blob/master/gambar/tfidf.png?raw=true'></img>
 
 **Mengapa tahap Mengubah data kedalam representasi numerik diperlukan?**
 - Data perlu dikonversi ke dalam bentuk numerik karena sistem rekomendasi berbasis konten membutuhkan angka untuk merepresentasikan teks atau kategori, sehingga kemiripan antar-item dapat dihitung. Sebagai contoh, pada sistem rekomendasi film, kategori seperti "Adventure," "Comedy," atau "Drama" diterjemahkan ke dalam nilai angka agar dapat dibandingkan secara matematis. Representasi ini memungkinkan algoritma mengukur kesamaan dengan lebih akurat.
@@ -383,7 +383,7 @@ Dimana:
 
 Collaborative Filtering dengan model RecommenderNet memberikan hasil training yang divisualisasikan melalui gambar di bawah ini:
 
-<img src='gambar\evaluasi.png'></img>
+<img src='https://github.com/alifriu/Recommendation-System-Movie-Recommender/blob/master/gambar/evaluasi.png?raw=true'></img>
 
 Dengan epoch sebanyak 100, model ini memperoleh nilai error akhir sebesar sekitar 0.05 untuk training dan error pada data validasi sebesar 0.27. Nilai tersebut cukup bagus untuk sistem rekomendasi.
 
